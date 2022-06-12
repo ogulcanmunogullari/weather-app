@@ -9,11 +9,12 @@
 <p>   2. Click on the button to get weather data. </p>
 <p>   3. You can see the weather data. </p>
 <p>   4. You can also see details if you click weekly data. </p>
-<h2> Tools, API's and langs what i use </h2>
+
 
 <img src="src/img/image-1.jpg">
 <img src="src/img/image-2.jpg">
-
+<h2> Tools, API's and langs what i use </h2
+  
 <p>   1. React </p>
 <p>   2. Tailwind </p>
 <p>   3. Open Weather API </p>
