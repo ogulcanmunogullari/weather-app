@@ -11,6 +11,9 @@
 <p>   4. You can also see details if you click weekly data. </p>
 <h2> Tools, API's and langs what i use </h2>
 
+<img src="src/img/image-1.jpg">
+<img src="src/img/image-2.jpg">
+
 <p>   1. React </p>
 <p>   2. Tailwind </p>
 <p>   3. Open Weather API </p>
