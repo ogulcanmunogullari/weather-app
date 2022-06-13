@@ -5,7 +5,7 @@ function Table({ dayName, day, i, data }) {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className="h-72">
+    <div className="h-[350px]">
       <div
         onClick={() => setHover(!hover)}
         key={i}
@@ -23,7 +23,7 @@ function Table({ dayName, day, i, data }) {
             : day.clouds > 10
             ? "bg-cyan-300 text-blue-900"
             : "bg-cyan-400 text-blue-900"
-        } w-36 mb-10 rounded-3xl p-2 h-max-[20px]`}
+        } w-36 mb-10 rounded-3xl p-2`}
       >
         <div className="flex justify-evenly">
           <h2 className="text-3xl text-center">{data[dayName + i]}</h2>
@@ -33,7 +33,9 @@ function Table({ dayName, day, i, data }) {
           src={`http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`}
           alt=""
         />
-        <h2 className="text-xl text-center">{day.weather[0].description}</h2>
+        <div className="h-20">
+          <h2 className="text-xl text-center">{day.weather[0].description}</h2>
+        </div>
         <div className={`${hover === false ? "hidden" : "text-md"}`}>
           <h4 className="text-center text-md">Hissedilen Sıcaklık</h4>
           <div className="flex justify-around ">
