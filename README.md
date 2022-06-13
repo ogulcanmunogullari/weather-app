@@ -1,5 +1,5 @@
 <h1> Weather App </h1>
-
+<i> Live on <a href="https://ogulcan-weather.netlify.app/"> ogulcan-weather.netlify.app/ </a> <i>
 <p>   This app using your location to for results, but if you dont want to use locationdata you can control manually.  </p>
 <p>   You can also search for any city you want. </p>
 
