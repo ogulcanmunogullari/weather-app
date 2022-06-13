@@ -1,26 +1,25 @@
 import { useLocation } from "../context/Location_Context";
 import Table from "./Table";
+const data = {
+  0: "Pazar",
+  1: "Pazartesi",
+  2: "Salı",
+  3: "Çarşamba",
+  4: "Perşembe",
+  5: "Cuma",
+  6: "Cumartesi",
+  7: "Pazar",
+  8: "Pazartesi",
+  9: "Salı",
+  10: "Çarşamba",
+  11: "Perşembe",
+  12: "Cuma",
+  13: "Cumartesi",
+  14: "Pazar",
+};
 
 function Main() {
   const { daily } = useLocation();
-
-  const data = {
-    0: "Pazar",
-    1: "Pazartesi",
-    2: "Salı",
-    3: "Çarşamba",
-    4: "Perşembe",
-    5: "Cuma",
-    6: "Cumartesi",
-    7: "Pazar",
-    8: "Pazartesi",
-    9: "Salı",
-    10: "Çarşamba",
-    11: "Perşembe",
-    12: "Cuma",
-    13: "Cumartesi",
-    14: "Pazar",
-  };
 
   let dayName = new Date().getDay();
   return (
